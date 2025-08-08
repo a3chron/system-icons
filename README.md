@@ -16,6 +16,8 @@
 This is a little collection of my catppuccin themed system icons for some of my apps.  
 Little sidenote, I am no designer, so don't expect too much.
 
+Also got one or two otehr icons in here, will style or remove them in the near future :)
+
 ## Usage
 
 Edit your `.desktop` files:
