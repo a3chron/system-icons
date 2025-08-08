@@ -30,6 +30,8 @@ Include the path to the icons there.
 
 Sometimes they update after a few seconds, sometime only after logging out / restarting.
 
+**Snap**
+
 For snap apps, you will have to copy your `.desktop` file to locally override the global `.desktop` entry, 
 as it will be otherwise overwritten at every restart:
 
@@ -38,6 +40,18 @@ cp /var/lib/snapd/desktop/applications/code_code.desktop ~/.local/share/applicat
 ```
 
 (Then edit the local version)
+
+**Flathub**
+
+For Flathub / Flatpak Apps, you will have to give them permissions 
+to access to the directory with the icons, for example:
+```
+~/Downloads/system.icons:ro
+```
+
+> [!NOTE]
+> You can use apps like [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) 
+> to give flatpak-apps permissions
 
 ## Preview
 
