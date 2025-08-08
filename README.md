@@ -37,6 +37,10 @@ cp /var/lib/snapd/desktop/applications/code_code.desktop ~/.local/share/applicat
 
 (Then edit the local version)
 
+## Preview
+
+TODO: Will add an preview here
+
 ## Contributing
 
 Contributions are welcome, I tried adding the transparent version of the icons too where I had it, 
@@ -44,7 +48,7 @@ so it is easier to create custom icons.
 
 ## Thanks
 
-- [ray.so](https://ray.so/icon) A tool to create the icons
+- [ray.so](https://ray.so/icon), A tool to create the icons
 
 
 <p align="center">
